@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-16T10:04:28.606Z",
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "test-me;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31476843200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sign up",
+            "match": {
+              "location": "code.sign_up()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041163700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login",
+            "match": {
+              "location": "code.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4939264400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select product",
+            "match": {
+              "location": "code.select_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5344638600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "checkout",
+            "match": {
+              "location": "code.checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379536600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "payment",
+            "match": {
+              "location": "code.payment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test me",
+    "description": "",
+    "id": "test-me",
+    "keyword": "Feature",
+    "uri": "classpath:decode2/decode2/decode3/class.feature",
+    "tags": []
+  }
+]
